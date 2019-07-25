@@ -1,0 +1,187 @@
+﻿<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="Styles/reset.css" rel="stylesheet" type="text/css" />-->
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+    <link href="Styles/myStyle.css" rel="stylesheet" type="text/css" />
+    <!-- Scripts -->
+    <script src="jScripts/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <img src="https://energy.strauss-group.co.il/wp-content/themes/energy/images/logo-strauss.png" class="logo" />
+
+        <div class="row first">
+            <!--גלדות-->
+            <div class="card " style="width: 18rem;">
+                <img src="https://www.elizol.co.il/images/sale-big/matara.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">גלידות</h5>
+                    <p class="card-text">1+1 על הגלידות</p>
+                    <a id="ice" class="btn btn-primary">קרא עוד</a>
+                </div>
+            </div>
+            <!--דנונה-->
+            <div class="card " style="width: 18rem;">
+                <img src="http://albums.timg.co.il/userfolders/214/3193451/3193451201611621147215.jpg?time=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">אקטיביה</h5>
+                    <p class="card-text">25% הנחה</p>
+                    <a class="btn btn-primary" id="danone">קרא עוד</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <!--חתיפים-->
+            <div class="card " style="width: 18rem;">
+                <img src="https://i.ytimg.com/vi/XKo2MbTOm_8/maxresdefault.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">חטיפים</h5>
+                    <p class="card-text">חטיף שני חינם</p>
+                    <a id="tic" class="btn btn-primary">קרא עוד</a>
+                </div>
+            </div>
+            <!--פופקורן-->
+            <div class="card " style="width: 18rem;">
+                <img src="https://www.new4u.co.il/wp-content/uploads/2018/11/%D7%94%D7%95%D7%98%D7%A4%D7%95%D7%A4-%D7%9E%D7%90%D7%A8%D7%A1-%D7%9E%D7%91%D7%A6%D7%A2-6-%D7%A9%D7%A7%D7%99%D7%95%D7%AA-2-%D7%A9%D7%A7%D7%99%D7%95%D7%AA-%D7%9E%D7%AA%D7%A0%D7%94-%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%A2%D7%9E%D7%99%D7%AA-%D7%A9%D7%98%D7%A8%D7%90%D7%95%D7%A1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">פופקורן</h5>
+                    <p class="card-text">שקית פופקורן נוספת מתנה</p>
+                    <a id="pop" class="btn btn-primary">קרא עוד</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <!--פופיים-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">גלידות</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://www.elizol.co.il/images/sale-big/matara.jpg" class="imgMode" width="50%" />
+                    <h2>1+1 על מגוון הגלידות</h2>
+                    <p>
+                        מבצע מיוחד למזמינים היום!
+                        <br/>
+                        תקף עד תאריך 25/07/2025.
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">סגור</button>
+                    <button type="button" class="btn btn-primary">הזמן</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--פופיים-->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">אקטיביה</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="http://albums.timg.co.il/userfolders/214/3193451/3193451201611621147215.jpg?time=0" class="imgMode" width="50%" />
+                    <h2>25% הנחה על אקטיביה</h2>
+                    <p>
+                        מבצע מיוחד לכבוד האקטיביה  החדש!
+                        <br/>
+                        כל האקטביה בהנחה של 25%
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">סגור</button>
+                    <button type="button" class="btn btn-primary">הזמן</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--פופיים-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">חטיפים</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://i.ytimg.com/vi/XKo2MbTOm_8/maxresdefault.jpg" class="imgMode" width="50%" />
+                    <h2>חטיף חינם</h2>
+                    <p>
+                        מבצע לסוף שבוע!
+                        <br/>
+                        מזמינם חטיף אחד ומקבלים את השני חינם!
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">סגור</button>
+                    <button type="button" class="btn btn-primary">הזמן</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--פופיים-->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">פופקורן</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://www.new4u.co.il/wp-content/uploads/2018/11/%D7%94%D7%95%D7%98%D7%A4%D7%95%D7%A4-%D7%9E%D7%90%D7%A8%D7%A1-%D7%9E%D7%91%D7%A6%D7%A2-6-%D7%A9%D7%A7%D7%99%D7%95%D7%AA-2-%D7%A9%D7%A7%D7%99%D7%95%D7%AA-%D7%9E%D7%AA%D7%A0%D7%94-%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%A2%D7%9E%D7%99%D7%AA-%D7%A9%D7%98%D7%A8%D7%90%D7%95%D7%A1.jpg" class="imgMode" width="50%" />
+                    <h2>פופקורן נוספת מתנה</h2>
+                    <p>
+                        חדש! אריזת חיסכון הכוללת שקית פופקורן נוספת חינם!
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">סגור</button>
+                    <button type="button" class="btn btn-primary">הזמן</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

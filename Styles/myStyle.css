@@ -1,0 +1,51 @@
+﻿body {
+   width:98%;
+}
+#container{
+     width:100%;
+
+}
+.card,.logo{
+    margin: auto;
+}
+.logo{
+    width:30%;
+}
+.first{
+    margin-top:50px;
+
+}
+.card{
+    margin-top:10px;
+
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1040;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.modal {
+    position: fixed;
+    top: 22px;
+    right: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+.imgMode{
+    margin-right: 20%;
+}
+.modal-body h2,.modal-body p{
+    text-align:right;
+    margin-top:10px;
+}
+#ice ,#danone ,#tic,#pop{
+    color:white;
+}
